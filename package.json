@@ -1,0 +1,17 @@
+{
+  "name": "reduce",
+  "version": "0.1.0",
+  "description": "reduce a set of values to a single value",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkroso/reduce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkroso/reduce/issues"
+  },
+  "keywords": ["reduce","fold","foldleft","accumulate"],
+  "author": "Jake Rosoman",
+  "license": "MIT"
+}

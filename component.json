@@ -1,0 +1,26 @@
+{
+  "name": "reduce",
+  "repo": "jkroso/reduce",
+  "description": "reduce a set of values to a single value",
+  "version": "0.1.0",
+  "keywords": [
+    "reduce",
+    "fold",
+    "foldleft",
+    "accumulate"
+  ],
+  "dependencies": {
+    "jkroso/when": "3.0.0",
+    "jkroso/result": "0.1.0"
+  },
+  "development": {
+    "visionmedia/mocha": "1.11.0",
+    "jkroso/serve": "1.4.1",
+    "chaijs/chai": "1.7.0"
+  },
+  "scripts": [
+    "index.js",
+    "series.js"
+  ],
+  "license": "MIT"
+}
