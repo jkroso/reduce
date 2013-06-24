@@ -33,7 +33,7 @@ describe('reduce', function(){
 })
 
 describe('series', function(){
-	it('should return the accumulation as a promise', function(done){
+	it('should return the accumulation as a result', function(done){
 		series([1,2,3], add, 0).then(function(val){
 			val.should.equal(6)
 		}).node(done)
@@ -55,7 +55,7 @@ describe('series', function(){
 		}).node(done)
 	})
 
-	it('should accept promised arguments', function(done){
+	it('should accept Results', function(done){
 		series(delay([1,2,3]), function(a, b){
 			return delay(a + b)
 		}, delay(0)).then(function(val){

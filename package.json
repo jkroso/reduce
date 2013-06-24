@@ -1,8 +1,11 @@
 {
   "name": "reduce",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "reduce a set of values to a single value",
-  "dependencies": {},
+  "dependencies": {
+    "when": "http://github.com/jkroso/when/tarball/3.2.1",
+    "result": "0.3.0"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
@@ -10,6 +13,9 @@
   },
   "bugs": {
     "url": "https://github.com/jkroso/reduce/issues"
+  },
+  "scripts": {
+    "install": "npm dedupe"
   },
   "keywords": ["reduce","fold","foldleft","accumulate"],
   "author": "Jake Rosoman",
