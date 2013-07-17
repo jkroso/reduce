@@ -2,7 +2,7 @@
   "name": "reduce",
   "repo": "jkroso/reduce",
   "description": "reduce a set of values to a single value",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [
     "reduce",
     "fold",
@@ -10,13 +10,13 @@
     "accumulate"
   ],
   "dependencies": {
-    "jkroso/when": "3.2.1",
-    "jkroso/result": "0.3.0"
+    "jkroso/when": "3.2.4",
+    "jkroso/result": "0.3.1"
   },
   "development": {
-    "visionmedia/mocha": "1.11.0",
-    "jkroso/serve": "1.4.1",
-    "chaijs/chai": "1.7.0"
+    "visionmedia/mocha": "1.12.0",
+    "jkroso/serve": "1.4.4",
+    "chaijs/chai": "1.7.2"
   },
   "scripts": [
     "index.js",
