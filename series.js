@@ -1,18 +1,18 @@
 
-var decorate = require('when/decorate')
-  , when = require('when/read')
-  , Result = require('result')
+var decorate = require('lift-result')
+var Result = require('result')
+var read = Result.read
 
-module.exports = decorate(function(obj, ƒ, value){
+module.exports = decorate(function(obj, fn, value){
 	var result = new Result
 	var len = obj.length
 	var k = 0
 	if (value === undefined) value = obj[k++]
 	function next(value){
 		if (k < len) {
-			try { value = ƒ(value, obj[k++]) }
+			try { value = fn(value, obj[k++]) }
 			catch (e) { return fail(e) }
-			return when(value, next, fail)
+			return read(value, next, fail)
 		}
 		result.write(value)
 	}
