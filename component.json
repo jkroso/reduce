@@ -9,12 +9,8 @@
     "accumulate"
   ],
   "dependencies": {
-    "jkroso/result": "0.4.2"
-  },
-  "development": {
-    "visionmedia/mocha": "1.12.1",
-    "jkroso/serve": "1.5.1",
-    "chaijs/chai": "1.7.2"
+    "jkroso/lift-result": "0.1.3",
+    "jkroso/result": "0.4.4"
   },
   "scripts": [
     "index.js",
