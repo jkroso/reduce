@@ -9,12 +9,9 @@
     "accumulate"
   ],
   "dependencies": {
-    "jkroso/lift-result": "0.1.3",
-    "jkroso/result": "0.4.4"
+    "jkroso/lift-result": "0.1.4",
+    "jkroso/result": "1.0.1"
   },
-  "scripts": [
-    "index.js",
-    "series.js"
-  ],
+  "scripts": ["index.js", "series.js"],
   "license": "MIT"
 }
